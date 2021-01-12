@@ -1,0 +1,59 @@
+body {
+	font-family:font-family: 'Cairo', sans-serif;
+	margin:0;
+	padding:0;
+	font-weight:bold;
+}
+
+.brand-logo img {
+	margin-top:12px;
+	max-width:80px;
+}
+
+.abaycostumcolor {
+  background-color: #e30f00 !important;
+}
+
+#progress{
+	position:fixed;
+	top:100;
+	left:0;
+	height:2px; 
+	padding:2px;
+	background:#ff9900;
+	z-index:999;
+}
+
+.sidenav{
+	z-index:9999;
+}
+
+.card-panel {
+	border-radius:5px;
+	background-color:rgba(255,255,255,1) !important;
+}
+
+.card-panel:hover {
+	border-radius:5px;
+	background-color:rgba(255,255,255,1) !important;
+	box-shadow: 0 0 4px 1.5px rgba(0,0,0,.4);
+}
+
+.prf {
+	margin-top:-5px;
+	font-size:14px;
+}
+
+ .parallax-container {
+      height: 250px;
+	filter:grayscale()
+	blur(.4px);
+    }
+
+
+ .parallax-container h4{
+	color:white;
+	line-height:250px;
+	font-size:60px;
+    }
+
